@@ -1,56 +1,73 @@
 body {
   background-color: #ECEDED; }
 
-form {
-  width: 382px;
-  background-color: white;
-  padding: 20px;
-  box-sizing: border-box;
-  border-radius: 10px;
-  box-shadow: 0px 0px 15px gray; }
-  form div {
-    margin-bottom: 10px; }
-    form div input {
-      width: 310px;
-      padding: 15px;
-      font-size: 18px;
-      font-family: inherit;
-      border-radius: 5px;
-      border: 1px solid #ECEDED; }
-    form div button {
-      width: 342px;
-      padding: 15px;
-      font-size: 20px;
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: 600;
-      background-color: #5177FF;
-      color: white;
-      border-radius: 5px;
-      border: none; }
-  form a {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #5177FF;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    margin-bottom: 15px; }
-    form a:hover {
+.main-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 170px; }
+  .main-div .text {
+    margin-top: -80px;
+    width: 550px; }
+    .main-div .text h1 {
+      font-size: 60px;
       color: #5177FF;
-      text-decoration: underline; }
-  form .createbtn {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    form .createbtn button {
-      width: 210px;
-      padding: 15px;
-      font-size: 18px;
       font-family: Arial, Helvetica, sans-serif;
-      font-weight: 500;
-      background-color: #1AB217;
-      color: white;
-      border-radius: 5px;
-      margin-top: 8px; }
+      margin: 0; }
+    .main-div .text p {
+      margin: 10px 0 0 0;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif; }
+  .main-div form {
+    width: 382px;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px gray; }
+    .main-div form div {
+      margin-bottom: 10px; }
+      .main-div form div input {
+        width: 310px;
+        padding: 15px;
+        font-size: 18px;
+        font-family: inherit;
+        border-radius: 5px;
+        border: 1px solid #ECEDED; }
+      .main-div form div button {
+        width: 342px;
+        padding: 15px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        background-color: #5177FF;
+        color: white;
+        border-radius: 5px;
+        border: none; }
+    .main-div form a {
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #5177FF;
+      text-decoration: none;
+      text-align: center;
+      display: block;
+      margin-bottom: 15px; }
+      .main-div form a:hover {
+        color: #5177FF;
+        text-decoration: underline; }
+    .main-div form .createbtn {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .main-div form .createbtn button {
+        width: 210px;
+        padding: 15px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        background-color: #1AB217;
+        color: white;
+        border-radius: 5px;
+        margin-top: 8px; }
 
 /*# sourceMappingURL=style.css.map */
